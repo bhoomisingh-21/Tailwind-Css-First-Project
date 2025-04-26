@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>new file</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    
+    <div class="container min-h-screen bg-[url('/images/image.png')] bg-center bg-cover px-5 sm:px-10 md:px-20 lg:px-28 py-5 relative">
+        <nav class="flex items-center justify-between">
+            <img src="images/logo.png" class="w-40 cursor-pointer" alt="logo image">
+            <ul class="hidden sm:flex space-x-4">
+                <li><a href="#" class="text-white no-underline px-2">Home</a></li>
+                <li><a href="#" class="text-white no-underline px-2">About</a></li>
+                <li><a href="#" class="text-white no-underline px-2">Feature</a></li>
+                <li><a href="#" class="text-white no-underline px-2">Contact</a></li>
+            </ul>
+            <img src="images/cart.png" class="w-8 cursor-pointer" alt="">
+            <!-- Mobile Menu Toggle for smaller screens -->
+            <div class="sm:hidden">
+                <button class="text-white">☰</button> <!-- You can add functionality to toggle the mobile menu -->
+            </div>
+        </nav>
+
+        <div class="text-white mt-10 max-w-xl">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold leading-normal">Groceries <br> Delivery in <span class="font-light">15 mins</span></h1>
+            <p class="py-2">Groceries offer a wide range of products, including fresh products, meats, dairy, baked goods, and non-perishable items.</p>
+        </div>
+
+        <div class="mt-10 text-black">
+            <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border hover:border-yellow-300 hover:text-white duration-300 border border-transparent">Order Now</a>
+            <a href="#" class="bg-white rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border hover:border-yellow-300 hover:text-white duration-300 border border-transparent">Download App <span class="text-lg inline-block rotate-90"> &#10148;</span></a>
+        </div>
+
+        <div>
+            <img src="images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-15" alt="Grocery image">
+        </div>
+    </div>
+
+</body>
+</html>
